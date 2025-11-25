@@ -1,0 +1,25 @@
+# 1. Python & System Junk
+__pycache__/
+*.pyc
+.DS_Store
+
+# 2. Virtual Environment (Don't upload libraries)
+venv/
+env/
+.venv/
+
+# 3. Data Files (CRITICAL: Keep your telemetry local only)
+data/
+*.csv
+*.xlsx
+*.xrk
+*.drk
+
+# 4. Secrets & Configs (Protect your API Keys)
+.env
+.streamlit/secrets.toml
+config.py
+
+# 5. Temporary/Generated Files
+master_telemetry.csv
+master_test.csv
